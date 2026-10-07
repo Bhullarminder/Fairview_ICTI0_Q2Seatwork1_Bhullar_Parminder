@@ -1,6 +1,6 @@
 from pyscript import display, document
 
-# List of ICT club members
+# List of club members
 club_members = [
     "Pikachu 025",
     "Charizard 006",
@@ -9,6 +9,7 @@ club_members = [
 ]
 
 def check_member(e):
+    #gets the info Id from the texboxes
     first_name = document.getElementById("firstName").value
     last_name = document.getElementById("lastName").value
 
@@ -17,7 +18,7 @@ def check_member(e):
     member = full_name in club_members
 
     messages = (
-        "Congratulations " + full_name + "! You are now part of the ICT club.",
+        "Congratulations " + full_name + "! You are now part of the ICT Club.",
         "Sorry " + full_name + ", your name is not on the list."
     )
 
