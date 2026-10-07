@@ -26,7 +26,7 @@ def check_member(e):
     )
 
     # Use True = 1 and False = 0 to select the message
-    result = messages * member
+    result = messages[member]
 
     # Display the result
     document.getElementById("result").innerHTML = result
