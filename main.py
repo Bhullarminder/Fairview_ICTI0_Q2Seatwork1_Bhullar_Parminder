@@ -1,7 +1,7 @@
 from pyscript import display, document
 
 # List of ICT club members
-club_members = ["ictmem1", "ictmem2", "ictmem3", "ictmem4"]
+club_members = ["Member 1", "Member 2", "Member 3", "Member 4"]
 
 def check_member(e):
     # Get the first and last name
